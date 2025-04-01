@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fce4ec; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+    color: #ba4bd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.story {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.choice-button {
+    background: #880e4f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.choice-button:hover {
+    background: #ad1457;
+}
